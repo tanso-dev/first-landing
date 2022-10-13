@@ -88,8 +88,8 @@ h4{
     color: white;
     min-height: 500px;
     background: #C04848;  /* fallback for old browsers */
-    background: linear-gradient(rgba(22,31,56,1),  rgb(22,31,56,.8)), url("./../images/xavier-school.png");  /* Chrome 10-25, Safari 5.1-6 */
-    background: linear-gradient( rgba(22,31,56,1),  rgb(22,31,56, .8)), url("./../images/xavier-school.png"); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    background: linear-gradient(rgba(22,31,56,1),  rgb(22,31,56,.8)), url("./images/xavier-school.png");  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient( rgba(22,31,56,1),  rgb(22,31,56, .8)), url("./images/xavier-school.png"); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
     background-size: cover;
     background-repeat: no-repeat;
     display: flex;
