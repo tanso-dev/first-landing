@@ -1,0 +1,190 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-size: 20px;
+    background-color: #e2e2e2;
+    font-family: 'Lato', sans-serif;
+}
+h1, h2, h3, h4, h5, h6{
+    font-family: 'Alfa Slab One', cursive;
+    font-weight:400;
+}
+h1{
+    font-size: 1.75em;
+}
+h2{
+    font-size: 1.6em; 
+}
+h3{
+    font-size: 1.25em;
+
+}
+h4{
+    font-size: 1.125em;
+}
+.btn{
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 1.2em;
+    padding: 1em 3em;
+}
+.btn-light{
+    background-color: #e6c700;
+    color: #333 !important;
+    
+}
+.btn-dark{
+    background-color: #161F38;
+    color: white;
+}
+.btn-dark:hover{
+    background-color: #304276;
+}
+.text-center{
+    text-align: center;
+}
+.text-right{
+    text-align: right;
+}
+.section{
+    padding: 3em 3em;
+}
+
+.header{
+    background-color:#161F38;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1.5em 3em;
+}
+
+.header .left-head{
+    display: flex;
+    justify-content: flex-start;
+}
+.header ul{
+    flex: 1;
+    display: flex;
+    gap: 8px;
+    padding-left: 8px;
+}
+.header li{
+    list-style: none;
+}
+.header a{
+    text-decoration: none;
+    color: white;
+}
+.header a.enroll-btn{
+    background-color: #e6c700;
+    color: #222;
+    padding: 1em 3em;
+    border-radius: .5em;
+    font-size: 1.2em;
+    font-weight: bold;
+}
+.mast-section{
+    background-color: #161F38;
+    color: white;
+    min-height: 500px;
+    background: #C04848;  /* fallback for old browsers */
+    background: linear-gradient(rgba(22,31,56,1),  rgb(22,31,56,.8)), url("../images/xavier-school.png");  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient( rgba(22,31,56,1),  rgb(22,31,56, .8)), url("../images/xavier-school.png"); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    align-items:flex-end;
+    padding-bottom: 4em;
+}
+.flex-h-container{
+    display: flex;
+    gap: 10px;
+    justify-content: space-between;
+    align-items:center;
+}
+
+.flex-h-item{
+    flex: 1;
+    display:flex;
+    flex-direction:column;
+    align-items: center;
+}
+.flex-h-item-2{
+    flex-grow: 2;
+}
+.flex-faculty{
+    align-items: initial;
+}
+.flex-faculty .flex-h-item{
+    align-items: initial;
+}
+.faculty-photo{
+    min-width: 450px;
+    height: auto;
+    box-shadow: 2px 4px 8px rgba(0,0,0, .2);
+}
+.course-section{
+    background-color: #fdfdfd;
+    padding-top:  4em;
+    padding-bottom: 4em;
+}
+.course{
+    transform:scale(.98);
+    transition: all .1s;
+
+}
+.course:hover{
+    transform:scale(1);
+}
+.course img{
+    max-width: 200px;
+    height: auto;
+    margin-bottom: .5em;
+    border-radius: .5em;
+    box-shadow: 2px 4px 8px rgba(0,0,0, .2);
+    border: 5px solid #304276;
+}
+.course-title{
+    font-size: 1.2em;
+    font-weight: 600;
+    margin-bottom: 0px;
+    padding-bottom: 0px;
+}
+.course-description{
+    margin-top: 0px;
+    padding-top: .5em;
+}
+
+.quote-section{
+    padding: 2em 8em;
+    background-color:#304276;
+    font-size: 1.6em;
+    color: white;
+}
+.quote-author{
+    font-size: .75em;
+    font-style: italic;
+}
+
+.cta-flex{
+    margin: 3em 6em;
+    background-color: #304276;
+    border-radius: 2em;
+    box-shadow: 2px 4px 8px rgba(0,0,0, .2);
+}
+.faculty-text{
+    padding: 0em 1.5em;
+}
+
+.cta-text{
+    padding: 1em 1em;
+    color: white;
+}
+.cta-img{
+    height: auto;
+    border-radius: 2em 0 0 2em;   
+}
+
+.btn-light:hover{
+    background-color: #fff200;
+}
